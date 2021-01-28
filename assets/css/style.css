@@ -67,6 +67,14 @@ h4{
 .swipeslide{
     display: none;
 }
+ 
+#WAButton{
+    z-index: 100;
+}
+
+img{
+    pointer-events: none;
+}
 
 
 
