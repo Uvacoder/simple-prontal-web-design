@@ -6,7 +6,9 @@ $(function() {
       showPopup: true, //Enables popup display
       buttonImage: '<img src="assets/images/whatsapp_icon.svg" />', //Button Image
       //headerColor: 'crimson', //Custom header color
-      backgroundColor: 'blue', //Custom background button color
+      backgroundColor: 'transparant', //Custom background button color
       position: "right"    
     });
   });
+
+ 

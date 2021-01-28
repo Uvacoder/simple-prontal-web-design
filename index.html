@@ -14,6 +14,9 @@
     <!-- animations css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- lighbox galery css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
     <!-- my original css -->
     <link rel="stylesheet" href="assets/css/style.css">
  
@@ -21,6 +24,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f16c6c5863.js" crossorigin="anonymous"></script>
 
 
     <!-- link icon -->
@@ -62,10 +67,12 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow   ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-              <img class="mx-5" src="./assets/images/logo.png" width="60"  style="margin: p-3;" alt="logo"  >
-          </a>
+        <div class="container-fluid"> 
+            <a class="navbar-brand brand-logo  " href="/">
+                <img class="ml-5" src="./assets/images/logo.png" width="60"   alt="logo"  >
+            </a>
+            <a class="navbar-brand  brand-name " href="#">Prontal.id</a> 
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -77,18 +84,23 @@
                     </a>
                 </li>
                 <li class="nav-item" style="font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;margin-right: 2vw;margin-left: 2vw;">
-                    <a class="nav-link" href="#services" style="margin-right: 2vw;margin-left: 2vw;font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;">
+                    <a class="nav-link" href="#services" style="margin-right: 1vw;margin-left: 2vw;font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;">
                         <span style="text-decoration: underline;">Services</span>
+                    </a>
+                </li>
+                <li class="nav-item" style="font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;margin-right: 2vw;margin-left: 2vw;">
+                    <a class="nav-link" href="#karya" style="margin-right: 1vw;margin-left: 2vw;font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;">
+                        <span style="text-decoration: underline;">Portofolio</span>
                     </a>
                 </li>
                 <li class="nav-item" style="font-family: Roboto, sans-se
                 rif;font-size: 24;font-weight: bold;color: #ffffff;margin-right: 2vw;margin-left: 2vw;">
-                    <a class="nav-link" href="#" style="margin-right: 2vw;margin-left: 2vw;font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;">
-                        <span style="text-decoration: underline;">Benefits</span>
+                    <a class="nav-link" href="#whyChooseUs" style="margin-right: 2vw;margin-left: 2vw;font-family: Roboto, sans-serif;font-size: 24;font-weight: bold;color: #ffffff;">
+                        <span style="text-decoration: underline;">Why Choose Us?</span>
                     </a>
                 </li>
             </ul>
-            <a href="#" class="btn btn-warning" type="button" style="margin-left:2vw; width: auto;max-width: auto;font-family: Roboto, sans-serif;">
+            <a href="https://wa.me/6282287831544" target="_blank" class="btn btn-warning" type="button" style="margin-left:2vw; width: auto;max-width: auto;font-family: Roboto, sans-serif;">
                 <strong>
                     <span  >Contact Us</span>
                 </strong>
@@ -107,7 +119,7 @@
 
         <img data-aos="fade-up" class="main-image  " src="./assets/images/Humaaans - 3 Characters 1.png" width="40%" alt="" srcset="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
-            <path fill="#ffffff" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,144C384,160,480,192,576,213.3C672,235,768,245,864,234.7C960,224,1056,192,1152,160C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path fill="#E6F4F1" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,144C384,160,480,192,576,213.3C672,235,768,245,864,234.7C960,224,1056,192,1152,160C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
     </div>
 
@@ -170,7 +182,7 @@
         <div class="swiper-container swipeslide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"  >
-                    <div class="card mx-2 my-3  shadow-lg " style="width: 18rem; height: auto; border-radius: 10%; background-color: #4A69BD;">
+                    <div class="card mx-2 my-3 mobile-card  shadow-lg " style=" height: auto; border-radius: 10%; background-color: #4A69BD;">
                         <img class="card-img-top mt-3 mb-3" src="./assets/images/building_websites.svg" alt="Card image cap">
                         <div class="card-body">
                         <h4>Web Design & Development</h4>
@@ -178,7 +190,7 @@
                     </div>
                 </div> 
                 <div class="swiper-slide" >
-                    <div class="card mx-2 my-3  shadow-lg  " style="width: 18rem; height: auto; border-radius: 10%; background-color: #4A69BD;">
+                    <div class="card mx-2 my-3 mobile-card  shadow-lg  " style=" height: auto; border-radius: 10%; background-color: #4A69BD;">
                         <img class="card-img-top mt-3" src="./assets/images/mobile.svg" alt="Card image cap">
                         <div class="card-body">
                         <h4>Mobile Apps Development</h4>
@@ -186,8 +198,8 @@
                     </div>
                 </div> 
                 <div class="swiper-slide" >
-                    <div class="card mx-2 my-3  shadow-lg  " style="width: 18rem; height: auto; border-radius: 10%; background-color: #4A69BD;">
-                        <img class="card-img-top mt-5 mb-5 " src="./assets/images/social_media_admin.svg" alt="Card image cap">
+                    <div class="card mx-2 my-3 mobile-card  shadow-lg  " style=" height: auto; border-radius: 10%; background-color: #4A69BD;">
+                        <img class="card-img-top mt-4 mb-4 " src="./assets/images/social_media_admin.svg" alt="Card image cap">
                         <div class="card-body">
                         <h4>Sosial Media Admin</h4>
                         </div>
@@ -207,7 +219,7 @@
         <div class="swiper-container swipeslide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"  >
-                    <div class="card mx-2 my-3  shadow-lg  " style="width: 18rem; height: auto; border-radius: 10%; background-color: #4A69BD;">
+                    <div class="card mx-2 my-3 mobile-card  shadow-lg  " style=" height: auto; border-radius: 10%; background-color: #4A69BD;">
                         <img class="card-img-top mt-3 mb-3" src="./assets/images/desain_grafis_photografy.svg" alt="Card image cap">
                         <div class="card-body">
                         <h4>Desain Grafis & Photograph</h4>
@@ -215,7 +227,7 @@
                     </div>
                 </div> 
                 <div class="swiper-slide" >
-                    <div class="card mx-2 my-3  shadow-lg  " style="width: 18rem; height: auto; border-radius: 10%; background-color: #4A69BD;">
+                    <div class="card mx-2 my-3 mobile-card  shadow-lg  " style=" height: auto; border-radius: 10%; background-color: #4A69BD;">
                         <img class="card-img-top mt-5 mb-3" src="./assets/images/video-editing.svg" alt="Card image cap">
                         <div class="card-body">
                         <h4>Video Editing</h4>
@@ -223,7 +235,7 @@
                     </div>
                 </div> 
                 <div class="swiper-slide" >
-                    <div class="card mx-2 my-3  shadow-lg  " style="width: 18rem; height: auto; border-radius: 10%; background-color: #4A69BD;">
+                    <div class="card mx-2 my-3 mobile-card  shadow-lg  " style=" height: auto; border-radius: 10%; background-color: #4A69BD;">
                         <img class="card-img-top p-3" src="./assets/images/jurnalist.svg" alt="Card image cap">
                         <div class="card-body">
                         <h4>Journalist</h4>
@@ -239,6 +251,132 @@
              <div class="swiper-button-next"></div>
          </div>
         </div>  
+
+    
+
+    <div class="bg-primary karya">
+        <h2 id="karya" class="karya-title">Portofolio</h2>
+        
+
+        <div class=" ">    
+            <div class=" d-flex justify-content-center row mx-1 my-1 p-1 mt-2 mx-lg-5 my-lg-5 p-lg-5 mt-2 mb-0"  >
+    
+              
+                <div class="card mx-2 my-3 karya-card  shadow-lg   " style=" height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, .41); ">
+                    <a href="https://sanjaianna.com" class="btn" target="_blank">
+                        <img class="card-img-top fill mt-2  " src="./assets/images/web_sanjaianna.svg" alt="Card image cap">
+                            
+                        <p class="text-center text-light" style="font-weight: bold;">Sanjai Anna.com</p>
+                            
+                    </a> 
+                </div>
+
+                <div class="card mx-2 my-3 karya-card d-flex justify-content-center align-items-center shadow-lg " style=" height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, .41); ">
+                     
+                    <a class="btn" href="./assets/photo_produk/produk1.jpg" data-lightbox="photos">
+                        <img class="img-fluid rounded mb-4 mt-4" src="./assets/photo_produk/produk1.jpg">
+                        <p class="text-center text-light" style="font-weight: bold;">Photo Produk</p>
+                    </a>  
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk2.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk2.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk3.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk3.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk4.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk4.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk5.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk5.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk6.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk6.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk7.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk7.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk8.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk8.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item d-none"><a href="./assets/photo_produk/produk9.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/photo_produk/produk9.jpg"></a></div> 
+                </div>
+
+                <div class="card mx-2 my-3 karya-card  shadow-lg   " style=" height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, .41); ">
+                    <a href="https://www.instagram.com/sanjaianna_pyk/" class="btn" target="_blank">
+                        <img class="card-img-top fill mt-2  " src="./assets/images/admin sanjai anna.svg" alt="Card image cap">
+                            
+                        <p class="text-center text-light" style="font-weight: bold;">Admin Instagram Sanjai Anna</p>
+                            
+                    </a> 
+                </div>
+
+                <div class="card mx-2 my-3 karya-card  shadow-lg   " style=" height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, .41); ">
+                    <a href="https://www.instagram.com/gelamai.erina/" class="btn" target="_blank">
+                        <img class="card-img-top fill mt-2  " src="./assets/images/admin gelamai erina.svg" alt="Card image cap">
+                            
+                        <p class="text-center text-light" style="font-weight: bold;">Admin Instagram Gelamai Erina</p>
+                            
+                    </a> 
+                </div>
+    
+                 
+                
+                
+    
+            </div> 
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#E6F4F1" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,240C384,235,480,181,576,181.3C672,181,768,235,864,245.3C960,256,1056,224,1152,213.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+
+    </div>
+
+
+    <div class="whyChooseUs   " >
+        <h2 id="whyChooseUs" class="whyChooseUs-title">Why Choose Us?</h2> 
+
+        <div class="d-flex justify-content-center align-items-center mt-md-5 mt-lg-5 mt-sm-2"> 
+            <div data-aos="fade-up" data-aos-duration="1200" class="card mx-2 my-3  shadow-lg   " style="width: 18rem; height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, 0); ">
+                <a   class="btn" target="_blank">
+                    <img class="card-img-top fill mt-2  " src="./assets/images/hemat.svg" alt="Card image cap">
+                        
+                    <p class="text-center text-dark whyChooseUstext" style="font-weight: bold; ">Hemat</p>
+                        
+                </a> 
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1200" class="card mx-2 my-3  shadow-lg   " style="width: 18rem; height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, 0); ">
+                <a   class="btn" target="_blank">
+                    <img class="card-img-top fill mt-2  " src="./assets/images/integritas.svg" alt="Card image cap">
+                        
+                    <p class="text-center text-dark whyChooseUstext" style="font-weight: bold; ">Integritas</p>
+                        
+                </a> 
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1200" class="card mx-2 my-3  shadow-lg   " style="width: 18rem; height: auto; border-radius: 5%;  background-color: rgba(0, 0, 0, 0); ">
+                <a   class="btn" target="_blank">
+                    <img class="card-img-top fill mt-2  " src="./assets/images/qualitas.svg" alt="Card image cap">
+                        
+                    <p class="text-center text-dark whyChooseUstext" style="font-weight: bold; ">Berqualitas</p>
+                        
+                </a> 
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <h5   class="whyChooseUs-interest-text text-dark">Jadi tunggu apa lagi? Segera bangun profil bisnis digitalmu!</h5> 
+        <h5   class="whyChooseUs-interest-text text-dark">Ingat digitalisasi, ingat Prontal.id. 👍 </h5> 
+        </div>
+
+    </div>
+ 
+
+    
+    <div class="curved">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#454655" fill-opacity="1" d="M0,160L48,160C96,160,192,160,288,165.3C384,171,480,181,576,176C672,171,768,149,864,144C960,139,1056,149,1152,154.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <footer id="footerpad">
+            
+            <div class="container py-3 footer-container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-8 mx-auto">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item"><a target="_blank" href="https://wa.me/6282287831544"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i></span></a></li> 
+                            <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/prontal.id/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://www.google.com/search?q=rumah%20surip&oq=rum&aqs=chrome.0.69i59j69i57j0i271l3j69i60l2.838j0j9&client=ubuntu&sourceid=chrome&ie=UTF-8&hs=hdq&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=13689870130802183519&lqi=CgtydW1haCBzdXJpcFoaCgtydW1haCBzdXJpcCILcnVtYWggc3VyaXA&ved=2ahUKEwir1ICt477uAhW0guYKHepMDFwQvS4wAXoECAMQNA&rlst=f#rlfi=hd:;si:13689870130802183519,l,CgtydW1haCBzdXJpcFoaCgtydW1haCBzdXJpcCILcnVtYWggc3VyaXA;mv:[[2.0270162,111.2343808],[-8.2737322,99.75992099999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-marker-alt fa-stack-1x fa-inverse"></i></span></a></li>
+                        </ul>
+                        <p class="copyright text-muted text-center">Copyright © Prontal.id  <script>document.write(new Date().getFullYear())</script> | Web Design by fauziarda</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
 
 
@@ -284,7 +422,11 @@
         });
     </script>
 
+    <!-- my original javascript -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- lightbox js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
 </body>
 </html>

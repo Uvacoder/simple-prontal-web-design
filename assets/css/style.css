@@ -29,6 +29,9 @@ h2{
 *{
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: #E6F4F1;
+}
 .menu{
     display: flex;
     justify-content: end;
@@ -76,6 +79,65 @@ img{
     pointer-events: none;
 }
 
+.karya{
+    width: 100vw;
+    height: auto;
+}
+.karya-title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5vh;
+}
+
+.item{
+    padding-bottom: 30px;
+}
+
+.whyChooseUs{
+    margin: 0%;
+    width: 100vw;
+    height: auto; 
+}
+.whyChooseUs h2{
+    margin: 0%;
+}
+
+footer{
+    width: 100vw; 
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    background-color:#454655;
+}
+
+.curved{
+    width: 100vw;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+.whyChooseUstext{
+    font-size: 1.2em;
+}
+
+.karya-card{
+    width: 18rem;
+}
+
+.brand-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+.brand-logo{
+    margin-left: 3rem;
+    margin-right: .5rem;
+}
+
+.footer-container{
+    margin-top:  -2rem;
+}
+
 
 
 
@@ -88,7 +150,7 @@ img{
     } 
 
     h1{ 
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
     h5{ 
         font-size: .7em;
@@ -97,13 +159,22 @@ img{
 
     h2{ 
         margin-top: 5vh;
+        font-size: 1.3em;
+        font-weight: bold;
+    } 
+    .whyChooseUstext{
+        font-size: .7em;
     }
-    /* .swipeslide{
-        display: block;
+    .karya-card{
+        width: 10rem;
     }
-    .cardview{
-        display: none;
-    } */
+    .brand-name{
+        margin-left: 0;
+        font-size: 1.5em;
+    }
+    .brand-logo{
+        margin-left: .25rem; 
+    }
      
   }
   @media only screen and (max-width: 1000px) {
@@ -113,6 +184,13 @@ img{
     }
     .cardview{
         display: none;
+    }
+
+    .mobile-card{
+        width: 10rem;
+    }
+    .mobile-card h4{
+        font-size: 1em;
     }
      
   }
