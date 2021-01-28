@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    display: block;
+    padding-top: 5vh;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+h5{
+    display: block;
+    color:white;
+    text-align: center;
+    
+}
+
+h2{
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 30vh;
+    padding-top: 5vh;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.landing{ 
+    width: 100%;
+    min-height: 30vh;
+    padding: 0%;
+    margin: 0%;
+}
+.landing svg{ 
+    align-self: flex-end;
+    display: block;
+    margin: 0%;
+    padding: 0%; 
+}
+
+.main-image{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 30vw;
+} 
+h4{
+    display: block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.swiper-slide{
+   width: auto;
+   padding: 0%; 
+}
+.swipeslide{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-image{ 
+        position: relative;
+        margin-left: 10vw;
+        width: 80vw;
+    } 
+
+    h1{ 
+        font-size: 1.25em;
+    }
+    h5{ 
+        font-size: .7em;
+        
+    }
+
+    h2{ 
+        margin-top: 5vh;
+    }
+    /* .swipeslide{
+        display: block;
+    }
+    .cardview{
+        display: none;
+    } */
+     
+  }
+  @media only screen and (max-width: 1000px) {
+     
+    .swipeslide{
+        display: block;
+    }
+    .cardview{
+        display: none;
+    }
+     
+  }
