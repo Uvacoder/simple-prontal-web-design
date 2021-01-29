@@ -138,6 +138,15 @@ footer{
     margin-top:  -2rem;
    background-color: #454655;
 }
+.swiper-slide-active .mobile-card{
+    width: 14rem;
+    transition: all .1s linear;
+}
+
+.glass{
+    background-color: rgba(0, 0, 0, 0.281);   
+    backdrop-filter: blur(5px);
+}
 
 
 
@@ -176,6 +185,9 @@ footer{
     .brand-logo{
         margin-left: .25rem; 
     }
+    .karya-text{
+        font-size: .7em;
+    }
      
   }
   @media only screen and (max-width: 1000px) {
@@ -193,5 +205,6 @@ footer{
     .mobile-card h4{
         font-size: 1em;
     }
+    
      
   }
